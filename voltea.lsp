@@ -1,0 +1,18 @@
+(defun c:voltea ()
+        (setq E (entnext))
+        (while E
+          (setq XYZ (cdr (assoc 10 (entget E))))
+          (setq fs (cdr (assoc 41 (entget e))))
+          (if (= "INSERT" (cdr (assoc 0 (entget E))))
+              (if (= "COTA" (cdr (assoc 2 (entget E))))
+                       (if (AND (>= (cdr (assoc 50 (entget E))) 1.5708) (<= (cdr (assoc 50 (entget E))) 4.5378))
+                         (PROGN
+                           (COMMAND "ROTATE" E "" XYZ 180)
+                           (command "MOVE" E XYZ (STRCAT "@" (RTOS FS) "<270"))
+                         )
+                       )
+              )
+          )
+         (setq E (entnext E))
+        )
+)

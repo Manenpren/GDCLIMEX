@@ -1,0 +1,12 @@
+(DEFUN anibarra ()
+  (if (or (= contani nil) (= contani 0))
+    (setq contani 1)
+  )
+  (setq medias (getvar "VIEWCTR"))
+  (setq xmed (car medias))
+  (setq ymed (cdr medias))
+  (setq hscr (getvar "VIEWSIZE"))
+  (setq hbr (* hscr 0.09))
+  (setq lbr (* 5.75 hbr))
+
+)

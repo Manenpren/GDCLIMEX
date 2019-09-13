@@ -1,0 +1,606 @@
+3DCONVERSIONMODE  1
+3DDWFPREC         2
+3DSELECTIONMODE   1
+ACADLSPASDOC      0
+ACADPREFIX        "C:\Users\msa\AppData\Roaming\Autodesk\AutoCAD 
+2008\R17.1\enu..." (read only)
+ACADVER           "17.1s (LMS Tech)"                   (read only)
+ACISOUTVER        70
+AFLAGS            16
+ANGBASE           0
+ANGDIR            0
+ANNOALLVISIBLE    1
+ANNOAUTOSCALE     -4
+ANNOTATIVEDWG     0
+APBOX             0
+APERTURE          10
+AREA              0.0000                               (read only)
+ATTDIA            0
+ATTIPE            0
+ATTMODE           1
+ATTMULTI          1
+ATTREQ            1
+AUDITCTL          0
+AUNITS            0
+AUPREC            0
+AUTODWFPUBLISH    0
+AUTOSNAP          39
+BACKGROUNDPLOT    2
+BACKZ             0.0000                               (read only)
+BACTIONCOLOR      "7"
+BDEPENDENCYHIGHLIGHT 1
+BGRIPOBJCOLOR     "141"
+BGRIPOBJSIZE      8
+BINDTYPE          0
+BLIPMODE          0
+BLOCKEDITLOCK     0
+BLOCKEDITOR       0                                    (read only)
+BPARAMETERCOLOR   "7"
+BPARAMETERFONT    "Simplex.shx"
+Press ENTER to continue:
+BPARAMETERSIZE    12
+BTMARKDISPLAY     1
+BVMODE            0
+CALCINPUT         1
+CAMERADISPLAY     0
+CAMERAHEIGHT      0.0000
+CANNOSCALE        "1:1"
+CANNOSCALEVALUE   1.000000000                          (read only)
+CDATE             20091009.17040842                    (read only)
+CECOLOR           "BYLAYER"
+CELTSCALE         1.0000
+CELTYPE           "BYLAYER"
+CELWEIGHT         -1
+CENTERMT          0
+CHAMFERA          0.0000
+CHAMFERB          0.0000
+CHAMFERC          0.0000
+CHAMFERD          0
+CHAMMODE          0
+CIPMODE           0
+CIRCLERAD         0.0000
+CLAYER            "0"
+CLEANSCREENSTATE  0                                    (read only)
+CMATERIAL         "ByLayer"
+CMDACTIVE         1                                    (read only)
+CMDDIA            1
+CMDECHO           1
+CMDINPUTHISTORYMAX 20
+CMDNAMES          "SETVAR"                             (read only)
+CMLEADERSTYLE     "Standard"
+CMLJUST           0
+CMLSCALE          20.0000
+CMLSTYLE          "STANDARD"
+COMPASS           0
+COORDS            2
+COPYMODE          0
+CPLOTSTYLE        "ByColor"
+CPROFILE          "<<Unnamed Profile>>"                (read only)
+CROSSINGAREACOLOR 3
+CSHADOW           Casts and receives shadows
+Press ENTER to continue:
+CTAB              "Model"
+CTABLESTYLE       "Standard"
+CURSORSIZE        100
+CVPORT            2
+DATALINKNOTIFY    2
+DATE              2455114.71121905                     (read only)
+DBLCLKEDIT        ON
+DBMOD             4                                    (read only)
+DCTCUST           "C:\Users\msa\AppData\Roaming\Autodesk\AutoCAD 
+2008\R17.1\enu..."
+DCTMAIN           "enu"
+DEFAULTLIGHTING   1
+DEFAULTLIGHTINGTYPE 1
+DEFLPLSTYLE       "ByColor"
+DEFPLSTYLE        "ByColor"
+DELOBJ            1
+DEMANDLOAD        3
+DGNFRAME          0
+DGNOSNAP          1
+DIASTAT           1                                    (read only)
+DIMADEC           0
+DIMALT            OFF
+DIMALTD           3
+DIMALTF           0.0394
+DIMALTRND         0.0000
+DIMALTTD          3
+DIMALTTZ          0
+DIMALTU           2
+DIMALTZ           0
+DIMANNO           0                                    (read only)
+DIMAPOST          ""
+DIMARCSYM         0
+DIMASO            ON
+DIMASSOC          2
+DIMASZ            2.5000
+DIMATFIT          3
+DIMAUNIT          0
+DIMAZIN           0
+DIMBLK            ""
+DIMBLK1           ""
+DIMBLK2           ""
+Press ENTER to continue:
+DIMCEN            2.5000
+DIMCLRD           0
+DIMCLRE           0
+DIMCLRT           0
+DIMDEC            2
+DIMDLE            0.0000
+DIMDLI            3.7500
+DIMDSEP           ","
+DIMEXE            1.2500
+DIMEXO            0.6250
+DIMFIT            3
+DIMFRAC           0
+DIMFXL            1.0000
+DIMFXLON          OFF
+DIMGAP            0.6250
+DIMJOGANG         45
+DIMJUST           0
+DIMLDRBLK         ""
+DIMLFAC           1.0000
+DIMLIM            OFF
+DIMLTEX1          ""
+DIMLTEX2          ""
+DIMLTYPE          ""
+DIMLUNIT          2
+DIMLWD            -2
+DIMLWE            -2
+DIMPOST           ""
+DIMRND            0.0000
+DIMSAH            OFF
+DIMSCALE          1.0000
+DIMSD1            OFF
+DIMSD2            OFF
+DIMSE1            OFF
+DIMSE2            OFF
+DIMSHO            ON
+DIMSOXD           OFF
+DIMSTYLE          "ISO-25"                             (read only)
+DIMTAD            1
+DIMTDEC           2
+DIMTFAC           1.0000
+Press ENTER to continue:
+DIMTFILL          0
+DIMTFILLCLR       0
+DIMTIH            OFF
+DIMTIX            OFF
+DIMTM             0.0000
+DIMTMOVE          0
+DIMTOFL           ON
+DIMTOH            OFF
+DIMTOL            OFF
+DIMTOLJ           0
+DIMTP             0.0000
+DIMTSZ            0.0000
+DIMTVP            0.0000
+DIMTXSTY          "Standard"
+DIMTXT            2.5000
+DIMTZIN           8
+DIMUNIT           2
+DIMUPT            OFF
+DIMZIN            8
+DISPSILH          0
+DISTANCE          0.0000                               (read only)
+DONUTID           0.5000
+DONUTOD           1.0000
+DRAGMODE          2
+DRAGP1            10
+DRAGP2            25
+DRAGVS            ""
+DRAWORDERCTL      3
+DTEXTED           2
+DWFFRAME          2
+DWFOSNAP          1
+DWGCHECK          1
+DWGCODEPAGE       "ANSI_1252"                          (read only)
+DWGNAME           "Drawing1.dwg"                       (read only)
+DWGPREFIX         "C:\Users\msa\Documents\"            (read only)
+DWGTITLED         0                                    (read only)
+DXEVAL            12
+DYNDIGRIP         31
+DYNDIVIS          1
+DYNMODE           -3
+Press ENTER to continue:
+DYNPICOORDS       0
+DYNPIFORMAT       0
+DYNPIVIS          1
+DYNPROMPT         1
+DYNTOOLTIPS       1
+EDGEMODE          0
+ELEVATION         0.0000
+ENTERPRISEMENU    "."                                  (read only)
+EXPERT            0
+EXPLMODE          1
+EXTMAX            -1.0000E+20,-1.0000E+20,-1.0000E+20  (read only)
+EXTMIN            1.0000E+20,1.0000E+20,1.0000E+20     (read only)
+EXTNAMES          1
+FACETRATIO        0
+FACETRES          0.5000
+FIELDDISPLAY      1
+FIELDEVAL         31
+FILEDIA           1
+FILLETRAD         0.0000
+FILLMODE          1
+FONTALT           "simplex.shx"
+FONTMAP           "C:\Users\msa\AppData\Roaming\Autodesk\AutoCAD 
+2008\R17.1\enu..."
+FRONTZ            0.0000                               (read only)
+Press ENTER to continue:
+FULLOPEN          1                                    (read only)
+FULLPLOTPATH      1
+GFANG             0
+GFCLR1            "RGB:000,000,255"
+GFCLR2            "RGB:255,255,153"
+GFCLRLUM          1.000000000
+GFCLRSTATE        1
+GFNAME            1
+GFSHIFT           0
+GRIDDISPLAY       2
+GRIDMAJOR         5
+GRIDMODE          0
+GRIDUNIT          10.0000,10.0000
+GRIPBLOCK         0
+GRIPCOLOR         160
+GRIPDYNCOLOR      140
+GRIPHOT           1
+GRIPHOVER         3
+GRIPOBJLIMIT      100
+GRIPS             1
+GRIPSIZE          5
+GRIPTIPS          1
+GTAUTO            1
+GTDEFAULT         0
+GTLOCATION        0
+HALOGAP           0
+HANDLES           1                                    (read only)
+HIDEPRECISION     0
+HIDETEXT          ON
+HIGHLIGHT         1
+HPANG             0
+HPASSOC           1
+HPBOUND           1
+HPDOUBLE          0
+HPDRAWORDER       3
+HPGAPTOL          0.0000
+HPINHERIT         0
+HPMAXLINES        1000000
+HPNAME            "ANGLE"
+HPOBJWARNING      10000
+Press ENTER to continue:
+HPORIGIN          0.0000,0.0000
+HPORIGINMODE      0
+HPSCALE           1.0000
+HPSEPARATE        0
+HPSPACE           1.0000
+HYPERLINKBASE     ""
+IMAGEHLT          0
+IMPLIEDFACE       1
+INDEXCTL          0
+INETLOCATION      "http://www.autodesk.com"
+INPUTHISTORYMODE  15
+INSBASE           0.0000,0.0000,0.0000
+INSNAME           ""
+INSUNITS          4
+INSUNITSDEFSOURCE 4
+INSUNITSDEFTARGET 4
+INTELLIGENTUPDATE 20
+INTERFERECOLOR    "1"
+INTERFEREOBJVS    "Realistic"
+INTERFEREVPVS     "3D Wireframe"
+INTERSECTIONCOLOR 257
+INTERSECTIONDISPLAY OFF
+ISAVEBAK          1
+ISAVEPERCENT      50
+ISOLINES          4
+LASTANGLE         0                                    (read only)
+LASTPOINT         0.0000,0.0000,0.0000
+LASTPROMPT        "LASTANGLE         0                                    
+(read..." (read only)
+LATITUDE          37.7950
+LAYEREVAL         1
+LAYERFILTERALERT  2
+LAYERNOTIFY       15
+LAYLOCKFADECTL    50
+LAYOUTREGENCTL    2
+LEGACYCTRLPICK    0
+LENSLENGTH        50.0000
+LIGHTGLYPHDISPLAY 1
+LIGHTINGUNITS     2
+LIGHTSINBLOCKS    1
+LIMCHECK          0
+Press ENTER to continue:
+LIMMAX            420.0000,297.0000
+LIMMIN            0.0000,0.0000
+LINEARBRIGHTNESS  0
+LINEARCONTRAST    0
+LOCALE            "ESM"                                (read only)
+LOCALROOTPREFIX   "C:\Users\msa\AppData\Local\Autodesk\AutoCAD 2008\R17.1\enu\" 
+(read only)
+LOCKUI            0
+LOFTANG1          90
+LOFTANG2          90
+LOFTMAG1          0.0000
+LOFTMAG2          0.0000
+LOFTNORMALS       1
+LOFTPARAM         7
+LOGEXPBRIGHTNESS  65.0
+LOGEXPCONTRAST    50.0
+LOGEXPDAYLIGHT    2
+LOGEXPMIDTONES    1.00
+LOGEXPPHYSICALSCALE 1500.000
+LOGFILEMODE       0
+LOGFILENAME       "C:\Users\msa\AppData\Local\Autodesk\AutoCAD 
+2008\R17.1\enu\D..." (read only)
+LOGFILEPATH       "C:\Users\msa\AppData\Local\Autodesk\AutoCAD 2008\R17.1\enu\"
+LOGINNAME         "msa"                                (read only)
+LONGITUDE         -122.3940
+LTSCALE           1.0000
+LUNITS            2
+LUPREC            4
+LWDEFAULT         25
+LWDISPLAY         OFF
+LWUNITS           1
+MAXACTVP          64
+MAXSORT           1000
+MBUTTONPAN        1
+MEASUREINIT       1
+MEASUREMENT       1
+MENUCTL           1
+MENUECHO          0
+MENUNAME          "C:\Users\msa\AppData\Roaming\Autodesk\AutoCAD 
+2008\R17.1\enu..." (read only)
+MIRRTEXT          0
+MODEMACRO         ""
+MSLTSCALE         1
+Press ENTER to continue:
+MSOLESCALE        1.0000
+MTEXTED           "Internal"
+MTEXTFIXED        2
+MTJIGSTRING       "abc"
+MYDOCUMENTSPREFIX "C:\Users\msa\Documents"             (read only)
+NOMUTT            0
+NORTHDIRECTION    0
+OBSCUREDCOLOR     257
+OBSCUREDLTYPE     0
+OFFSETDIST        -1.0000
+OFFSETGAPTYPE     0
+OLEFRAME          2
+OLEHIDE           0
+OLEQUALITY        3
+OLESTARTUP        0
+ORTHOMODE         0
+OSMODE            4133
+OSNAPCOORD        2
+OSNAPHATCH        0
+OSNAPZ            0
+OSOPTIONS         3
+PALETTEOPAQUE     0
+PAPERUPDATE       0
+PDMODE            0
+PDSIZE            0.0000
+PEDITACCEPT       0
+PELLIPSE          0
+PERIMETER         0.0000                               (read only)
+PERSPECTIVE       0
+PERSPECTIVECLIP   5.0000
+PFACEVMAX         4                                    (read only)
+PICKADD           1
+PICKAUTO          1
+PICKBOX           3
+PICKDRAG          0
+PICKFIRST         1
+PICKSTYLE         1
+PLATFORM          "Microsoft Windows NT Version 6.0 (x86)" (read only)
+PLINEGEN          0
+PLINETYPE         2
+Press ENTER to continue:
+PLINEWID          0.0000
+PLOTOFFSET        0
+PLOTROTMODE       2
+PLQUIET           0
+POLARADDANG       ""
+POLARANG          90
+POLARDIST         0.0000
+POLARMODE         0
+POLYSIDES         4
+POPUPS            1                                    (read only)
+PREVIEWEFFECT     2
+PREVIEWFILTER     7
+PROJECTNAME       ""
+PROJMODE          1
+PROXYGRAPHICS     1
+PROXYNOTICE       1
+PROXYSHOW         1
+PROXYWEBSEARCH    0
+PSLTSCALE         1
+PSOLHEIGHT        80.0000
+PSOLWIDTH         5.0000
+PSPROLOG          ""
+PSQUALITY         75
+PSTYLEMODE        1                                    (read only)
+PSTYLEPOLICY      1
+PSVPSCALE         0.00000000
+PUBLISHALLSHEETS  1
+PUBLISHCOLLATE    1
+PUCSBASE          ""
+QTEXTMODE         0
+RASTERDPI         300
+RASTERPERCENT     20
+RASTERPREVIEW     1
+RASTERTHRESHOLD   20
+RECOVERYMODE      2
+REFEDITNAME       ""                                   (read only)
+REGENMODE         1
+REMEMBERFOLDERS   1
+RENDERUSERLIGHTS  1
+REPORTERROR       1
+Press ENTER to continue:
+ROAMABLEROOTPREFIX "C:\Users\msa\AppData\Roaming\Autodesk\AutoCAD 
+2008\R17.1\enu..." (read only)
+RTDISPLAY         1
+SAVEFIDELITY      1
+SAVEFILE          ""                                   (read only)
+SAVEFILEPATH      "C:\Users\msa\AppData\Local\Temp\"
+SAVENAME          ""                                   (read only)
+SAVETIME          10
+SCREENBOXES       0                                    (read only)
+SCREENMODE        3                                    (read only)
+SCREENSIZE        1346.0000,525.0000                   (read only)
+SELECTIONANNODISPLAY 1
+SELECTIONAREA     1
+SELECTIONAREAOPACITY 25
+SELECTIONPREVIEW  3
+SETBYLAYERMODE    127
+SHADEDGE          3
+SHADEDIF          70
+SHADOWPLANELOCATION 0.0000
+SHORTCUTMENU      0
+SHOWHIST          1
+SHOWLAYERUSAGE    0
+SHPNAME           ""
+SIGWARN           1
+SKETCHINC         1.0000
+SKPOLY            0
+SNAPANG           0
+SNAPBASE          0.0000,0.0000
+SNAPISOPAIR       0
+SNAPMODE          0
+SNAPSTYL          0
+SNAPTYPE          0
+SNAPUNIT          10.0000,10.0000
+SOLIDCHECK        1
+SOLIDHIST         1
+SORTENTS          127
+SPLFRAME          0
+SPLINESEGS        8
+SPLINETYPE        6
+SSFOUND           ""                                   (read only)
+SSLOCATE          1
+Press ENTER to continue:
+SSMAUTOOPEN       1
+SSMPOLLTIME       60
+SSMSHEETSTATUS    2
+STANDARDSVIOLATION 2
+STARTUP           0
+STEPSIZE          6.0000
+STEPSPERSEC       2.0000
+SUNSTATUS         0
+SURFTAB1          6
+SURFTAB2          6
+SURFTYPE          6
+SURFU             6
+SURFV             6
+SYSCODEPAGE       "ANSI_1252"                          (read only)
+TABLEINDICATOR    1
+TABLETOOLBAR      1
+TABMODE           0
+TARGET            0.0000,0.0000,0.0000                 (read only)
+TDCREATE          2455114.68839979                     (read only)
+TDINDWG           0.01908483                           (read only)
+TDUCREATE         2455114.89673313                     (read only)
+TDUPDATE          2455114.68839979                     (read only)
+TDUSRTIMER        0.01908240                           (read only)
+TDUUPDATE         2455114.89673313                     (read only)
+TEMPOVERRIDES     1
+TEMPPREFIX        "C:\Users\msa\AppData\Local\Temp\"   (read only)
+TEXTEVAL          0
+TEXTFILL          1
+TEXTOUTPUTFILEFORMAT 0
+TEXTQLTY          50
+TEXTSIZE          2.5000
+TEXTSTYLE         "Standard"
+THICKNESS         0.0000
+TILEMODE          1
+TIMEZONE          -8000
+TOOLTIPMERGE      0
+TOOLTIPS          1
+TRACEWID          1.0000
+TRACKPATH         0
+TRAYICONS         1
+Press ENTER to continue:
+TRAYNOTIFY        1
+TRAYTIMEOUT       0
+TREEDEPTH         3020
+TREEMAX           10000000
+TRIMMODE          1
+TSPACEFAC         1.0000
+TSPACETYPE        1
+TSTACKALIGN       1
+TSTACKSIZE        70
+UCSAXISANG        90
+UCSBASE           ""
+UCSDETECT         0
+UCSFOLLOW         0
+UCSICON           3
+UCSNAME           ""                                   (read only)
+UCSORG            0.0000,0.0000,0.0000                 (read only)
+UCSORTHO          1
+UCSVIEW           1
+UCSVP             1
+UCSXDIR           1.0000,0.0000,0.0000                 (read only)
+UCSYDIR           0.0000,1.0000,0.0000                 (read only)
+UNDOCTL           21                                   (read only)
+UNDOMARKS         0                                    (read only)
+UNITMODE          0
+UPDATETHUMBNAIL   15
+VIEWCTR           2542.7831,990.6456,0.0000            (read only)
+VIEWDIR           0.0000,0.0000,1.0000                 (read only)
+VIEWMODE          0                                    (read only)
+VIEWSIZE          1981.2912                            (read only)
+VIEWTWIST         0                                    (read only)
+VISRETAIN         1
+VPLAYEROVERRIDES  0                                    (read only)
+VPLAYEROVERRIDESMODE 1
+VPMAXIMIZEDSTATE  0                                    (read only)
+VSBACKGROUNDS     1
+VSEDGECOLOR       "BYENTITY"
+VSEDGEJITTER      -2
+VSEDGEOVERHANG    -6
+VSEDGES           1
+VSEDGESMOOTH      1
+Press ENTER to continue:
+VSFACECOLORMODE   0
+VSFACEHIGHLIGHT   -30
+VSFACEOPACITY     -60
+VSFACESTYLE       0
+VSHALOGAP         0
+VSHIDEPRECISION   0
+VSINTERSECTIONCOLOR "7 (white)"
+VSINTERSECTIONEDGES 0
+VSINTERSECTIONLTYPE 1
+VSISOONTOP        0
+VSLIGHTINGQUALITY 1
+VSMATERIALMODE    0
+VSMAX             15256.6986,5943.8736,0.0000          (read only)
+VSMIN             -10171.1324,-3962.5824,0.0000        (read only)
+VSMONOCOLOR       "RGB:255,255,255"
+VSOBSCUREDCOLOR   "BYENTITY"
+VSOBSCUREDEDGES   1
+VSOBSCUREDLTYPE   1
+VSSHADOWS         0
+VSSILHEDGES       0
+VSSILHWIDTH       5
+VTDURATION        750
+VTENABLE          3
+VTFPS             7
+WHIPARC           0
+WINDOWAREACOLOR   5
+WMFBKGND          OFF
+WMFFOREGND        OFF
+WORLDUCS          1                                    (read only)
+WORLDVIEW         1
+WRITESTAT         1                                    (read only)
+WSCURRENT         "AutoCAD Classic"
+XCLIPFRAME        0
+XEDIT             1
+XFADECTL          50
+XLOADCTL          2
+XLOADPATH         "C:\Users\msa\AppData\Local\Temp\"
+XREFCTL           0
+XREFNOTIFY        2
+XREFTYPE          0
+Press ENTER to continue:
+ZOOMFACTOR        60
+ZOOMWHEEL         0

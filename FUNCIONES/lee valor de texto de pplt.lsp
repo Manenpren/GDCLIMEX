@@ -1,0 +1,8 @@
+(defun rblpp (nlist archivo)
+  (setq archdim (open archivo "r"))
+  (repeat (1+ nlist)
+    (SETQ PROB (read-line archdim))
+  )
+  (close archdim)
+  (SETq RESP prob)
+)

@@ -1,0 +1,18 @@
+(defun ax:Centroid (poly / pl ms va reg cen)
+(vl-load-com)
+(setq pl (vlax-ename->vla-object poly)
+ms (vla-get-modelspace
+(vla-get-activedocument (vlax-get-acad-object))
+)
+va (vlax-make-safearray vlax-vbObject '(0 . 0))
+)
+(vlax-safearray-put-element va 0 pl)
+(setq reg (car (vlax-safearray->list
+(vlax-variant-value (vla-addregion ms va))
+)
+)
+cen (vla-get-centroid reg)
+)
+(vla-delete reg)
+(vlax-safearray->list (vlax-variant-value cen))
+) ;_fin (ax:Centroid) (setq x(ax:centroid (car (entsel))))

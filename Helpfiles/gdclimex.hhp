@@ -1,0 +1,48 @@
+[OPTIONS]
+Language=0x409 English (United States)
+Default Font=Arial,8,0
+TITLE=GDClimex
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Auto Index=Yes
+Default Window=Main
+Create CHI file=Yes
+Compiled file=gdclimex.chm
+Error Log file=gdclimex.log
+Contents file=gdclimex.hhc
+Index File=gdclimex.hhk
+Default Topic=Requisitos.html
+
+[FILES]
+Bienvenido.html
+Acerca.html
+Requisitos.html
+IntroducingYourProduct.html
+FileMenu.html
+bases-de-datos.html
+EditMenu.html
+graficas-de-preseleccion.html
+individual.html
+general.html
+correlacion.html
+
+
+
+
+[WINDOWS]
+Main="GDClimex","gdclimex.hhc","gdclimex.hhk","Requisitos.html","Requisitos.html",,,,,0x61520,200,0x384e,[9,9,566,600],0x307e,,,,,,0
+Popup="Popup","gdclimex.hhc","gdclimex.hhk","Requisitos.html","Requisitos.html", ,,,,0x00061520,200, 0x0000384E,[9,9,566,600],0x307e,0x8,,,,,0
+
+
+[MAP]
+#include gdclimex.h
+
+
+
+[TEXT POPUPS]
+CSHelp.txt
+
+ 
+

@@ -1,0 +1,5 @@
+(DEFUN AREAP (PUNTO AREA)
+     (COMMAND "-BOUNDARY" PUNTO "")
+     (COMMAND "AREA" "E" "L" "ERASE" "L" "")
+     (SETQ AREA (RTOS (GETVAR "AREA") 2 3))
+)

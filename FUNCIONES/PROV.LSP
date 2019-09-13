@@ -1,0 +1,8 @@
+(DEFUN c:CAM ()
+; (SETQ COLORF (+ 2 COLORF))
+(repeat 5 
+ (SETQ OBJE (SSGET))
+ (COMMAND "CHANGE" OBJE "" "P" "C" COLORF "")
+ (SETQ COLORF (+ 2 COLORF))
+)
+)

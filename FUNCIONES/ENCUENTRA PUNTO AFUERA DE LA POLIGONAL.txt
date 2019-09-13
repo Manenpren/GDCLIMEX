@@ -1,0 +1,119 @@
+
+
+Delta X = -1.4654,  Delta Y = 0.5559
+dx 1.5
+dy .6
+(DEFUN SENTPOL (POL)
+  (C:LIBRERIA "VERTICES DE UNA LWPOLYLINE")
+  (SETQ VERT1 (VERTICE POL 1))
+  (SETQ VERT2 (VERTICE POL 2))
+  (SETQ VERT3 (VERTICE POL 3))
+  (SETQ VX1 (CAR VERT1))
+  (SETQ VY1 (CADR VERT1))
+  (SETQ VX2 (CAR VERT2))
+  (SETQ VY2 (CADR VERT2))
+  (SETQ VX3 (CAR VERT3))
+  (SETQ VY3 (CADR VERT3))
+  (SETQ SENTIDO NIL)
+  (IF (< VX1 VX2 VX3) (SETQ SENTIDO "DE"))
+  (IF (> VX1 VX2 VX3) (SETQ SENTIDO "IZ"))
+  (IF (AND (< VY1 VY2 VY3) (= SENTIDO NIL)) (SETQ SENTIDO "AR"))
+  (IF (AND (> VY1 VY2 VY3) (= SENTIDO NIL)) (SETQ SENTIDO "AB"))
+  (IF (OR (= SENTIDO "DE") (= SENTIDO "IZ"))
+    (PROGN
+      (SETQ CONTINT 0)
+      (SETQ VERTINT (VERTICE POL 3))
+      (SETQ CONTVERT 4)
+      (WHILE VERTINT
+        (SETQ VERTINT2 VERTINT)
+        (SETQ VERTINT (VERTICE POL CONTVERT))
+        (IF (/= VERTINT NIL)
+          (PROGN
+            (SETQ IX1 (CAR VERTINT2))
+            (SETQ IY1 (CADR VERTINT2))
+            (SETQ IX2 (CAR VERTINT))
+            (SETQ IY2 (CADR VERTINT))
+            (IF (OR (AND (> VX2 IX2) (< VX2 IX1)) (AND (< VX2 IX2) (> VX2 IX1)))
+              (PROGN   
+                (SETQ YECUACION (+ (* (/ (- IY1 IY2) (- IX1 IX2)) (- VX2 IX1)) IY1))
+                (IF (> YECUACION VY2) (SETQ CONTINT (1+ CONTINT)))
+;                (SETQ XYZX (LIST 10 VX2 YECUACION 0))
+;                (ENTMAKE (LIST '(0 . "POINT") '(8 . "0") XYZX))
+              )
+            );IF
+            (SETQ CONTVERT (1+ CONTVERT))
+          );PROGN
+        );IF
+      );WHILE
+      (SETQ VERTINT VERT2)
+      (SETQ IX1 (CAR VERTINT2))
+      (SETQ IY1 (CADR VERTINT2))
+      (SETQ IX2 (CAR VERTINT))
+      (SETQ IY2 (CADR VERTINT))
+      (IF (OR (AND (> VX2 IX2) (< VX2 IX1)) (AND (< VX2 IX2) (> VX2 IX1)))
+        (PROGN   
+          (SETQ YECUACION (+ (* (/ (- IY1 IY2) (- IX1 IX2)) (- VX2 IX1)) IY1))
+          (IF (> YECUACION VY2) (SETQ CONTINT (1+ CONTINT)))
+;                (SETQ XYZX (LIST 10 VX2 YECUACION 0))
+;                (ENTMAKE (LIST '(0 . "POINT") '(8 . "0") XYZX))
+        )
+      );IF
+    );PROGN
+  );IF
+  (IF (OR (= SENTIDO "AR") (= SENTIDO "AB"))
+    (PROGN
+      (SETQ CONTINT 0)
+      (SETQ VERTINT (VERTICE POL 3))
+      (SETQ CONTVERT 4)
+      (WHILE VERTINT
+        (SETQ VERTINT2 VERTINT)
+        (SETQ VERTINT (VERTICE POL CONTVERT))
+        (IF (/= VERTINT NIL)
+          (PROGN
+            (SETQ IX1 (CAR VERTINT2))
+            (SETQ IY1 (CADR VERTINT2))
+            (SETQ IX2 (CAR VERTINT))
+            (SETQ IY2 (CADR VERTINT))
+            (IF (OR (AND (> VY2 IY2) (< VY2 IY1)) (AND (< VY2 IY2) (> VY2 IY1)))
+              (PROGN   
+                (SETQ XECUACION (+ (* (/ (- IX1 IX2) (- IY1 IY2)) (- VY2 IY1)) IX1))
+                (IF (< XECUACION VX2) (SETQ CONTINT (1+ CONTINT)))
+;                (SETQ XYZX (LIST 10 XECUACION VY2 0))
+;                (ENTMAKE (LIST '(0 . "POINT") '(8 . "0") XYZX))
+              )
+            );IF
+            (SETQ CONTVERT (1+ CONTVERT))
+          );PROGN
+        );IF
+      );WHILE
+      (SETQ VERTINT VERT2)
+      (SETQ IX1 (CAR VERTINT2))
+      (SETQ IY1 (CADR VERTINT2))
+      (SETQ IX2 (CAR VERTINT))
+      (SETQ IY2 (CADR VERTINT))
+      (IF (OR (AND (> VY2 IY2) (< VY2 IY1)) (AND (< VY2 IY2) (> VY2 IY1)))
+        (PROGN   
+          (SETQ XECUACION (+ (* (/ (- IX1 IX2) (- IY1 IY2)) (- VY2 IY1)) IX1))
+          (IF (< XECUACION VX2) (SETQ CONTINT (1+ CONTINT)))
+;                (SETQ XYZX (LIST 10 XECUACION VY2 0))
+;                (ENTMAKE (LIST '(0 . "POINT") '(8 . "0") XYZX))
+        )
+      );IF
+    );PROGN
+  );IF
+  (SETQ VARX (/ CONTINT 2.000))
+  (SETQ VARX2 (FIX (/ CONTINT 2.000)))
+  (IF (OR (= VARX VARX2) (= CONTINT 0))
+    (SETQ TIPON "PAR")
+    (SETQ TIPON "IMPAR")
+  )
+  (IF (AND (= SENTIDO "DE") (= TIPON "IMPAR"))(SETQ CONCLUSION "ANTIHORARIO"))
+  (IF (AND (= SENTIDO "DE") (= TIPON "PAR"))(SETQ CONCLUSION "HORARIO"))
+  (IF (AND (= SENTIDO "IZ") (= TIPON "IMPAR"))(SETQ CONCLUSION "HORARIO"))
+  (IF (AND (= SENTIDO "IZ") (= TIPON "PAR"))(SETQ CONCLUSION "ANTIHORARIO"))
+  (IF (AND (= SENTIDO "AR") (= TIPON "IMPAR"))(SETQ CONCLUSION "ANTIHORARIO"))
+  (IF (AND (= SENTIDO "AR") (= TIPON "PAR"))(SETQ CONCLUSION "HORARIO"))
+  (IF (AND (= SENTIDO "AB") (= TIPON "IMPAR"))(SETQ CONCLUSION "HORARIO"))
+  (IF (AND (= SENTIDO "AB") (= TIPON "PAR"))(SETQ CONCLUSION "ANTIHORARIO"))
+  (PRINT CONCLUSION)
+)

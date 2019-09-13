@@ -1,0 +1,73 @@
+(defun gzona ()
+  (C:LIBRERIA "zonas horarias to var")
+  (C:LIBRERIA "carga estados a pplt")
+  (C:LIBRERIA "carga municipios a pplt")
+  (setq mtzh (zhvar))
+  (setq dcl_id (load_dialog (strcat ruta "dialogos\\munizona.dcl"))) ; Load the DCL file.
+  (if (not (new_dialog "principal" dcl_id))   ; Initialize the dialog.
+    (exit)                                ; Exit if this doesn't 
+                                          ; work.
+  )
+  (lespp "estado")
+  (lmupp "muni" 1)
+  (action_tile "estado" "(camlmun)")
+  (action_tile "muni" "(camzhl)")
+  (action_tile "accept" "(termina)")
+  (action_tile "cancel" "(final1)")
+  (start_dialog)                          ; Display the dialog 
+                                          ; box.
+  (unload_dialog dcl_id)                  ; Unload the DCL file.
+  (princ)
+  (setq datofinal datofinal)
+)
+
+(defun final1 () 
+ (exit)
+)
+
+(defun camlmun () 
+  (setq nomblox (get_tile "estado"))
+  (lmupp "muni" (1+ (atoi nomblox)))
+)
+
+(defun camzhl () 
+  (setq estad (get_tile "estado"))
+  (setq muni (get_tile "muni"))
+  (setq salida "")
+  (setq zona1p (cdr (assoc 0 mtzh)))
+  (setq contador 1)
+  (while (and (/= "s" salida) (/= zona1p nil))
+    (setq cest (car zona1p))
+    (setq cmun (cadr zona1p))
+    (setq czon (caddr zona1p))
+    (if (and (= (atoi cest) (1+ (atoi estad))) (= (atoi cmun) (1+ (atoi muni))))
+	(progn
+	    (setq salida "s")
+	)
+    )
+    (setq zona1p (cdr (assoc contador mtzh)))
+    (setq contador (1+ contador))
+  )
+  (if (= (strlen czon) 2)
+    (progn
+      (set_tile "zonax" "")
+      (set_tile "zona" czon)
+    )
+    (progn
+      (set_tile "zonax" (strcat "varias zonas encontradas " czon))
+      (set_tile "zona" "")
+    )
+  )
+)
+(defun termina () 
+  (setq estad (get_tile "estado"))
+  (setq muni (get_tile "muni"))
+  (setq zona (get_tile "zona"))
+  (setq datofinal (list (1+ (atoi estad)) (1+ (atoi muni)) (atoi zona)))
+  (if (= (atof zona) 0)
+  (alert "Debes introducir la zona horaria")
+   )
+  (if (> (atof zona) 0)
+    (done_dialog)
+ )
+)
