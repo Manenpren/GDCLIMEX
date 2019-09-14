@@ -31,7 +31,7 @@ El programa tiene como base de funcionamiento Autocad, y fue programada en Autol
 PARA PODER UTILIZARLO TIENES QUE DESCARGAR TODOS LOS ARCHIVOS Y LA BASE DE DATOS
 LA CUAL ESTA EN EL SIGUIENTE ENLACE:
 
-http://terashare.net/OrPtNZv
+https://www.mediafire.com/file/7yqlueflaz29kue/bases_de_datos.zip/file
 
 PARA PODER UTILIZARLOS YO RECOMIENDO CREAR UNA CARPETA EN "C:\" CON PERMISOS DE ESCRITURA, YO POR LO GENERAL LA NOMBRABA "C:\LISP"
 
